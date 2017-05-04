@@ -17,10 +17,7 @@ gulp.task("sass", function() {
 gulp.task("browserSync", function() {
     bs.init({
         server: {
-            baseDir: 'app',
-            routes: {
-                "/bower_components": "bower_components"
-            }
+            baseDir: 'app'
         }
     })
 });
