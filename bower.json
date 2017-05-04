@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "description": "Resume for PUI class assignemnt.",
+  "main": "index.html",
+  "keywords": [
+    "resume",
+    "one-page"
+  ],
+  "authors": [
+    "Sangeeth Sudheer"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bulma": "^0.4.1"
+  }
+}
