@@ -1,0 +1,48 @@
+.hero {
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.hero-head {
+    .nav .nav-item {
+        font-family: 'Fredoka One', cursive;
+        text-transform: uppercase;
+        text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+        backface-visibility: hidden;
+    }
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.tab-content {
+    display: none;    
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    animation-duration: 0.5s;
+}
+
+.active {
+    display: block;
+    position: relative;
+    z-index: 10;
+    opacity: 1;
+}
+
+.skill-bar {
+    $size: 200px;
+    width: $size;
+    height: $size;
+}
+
+.skill-bar-label {
+    font-size: 1em;
+}
+
+#skills .level {
+    margin-bottom: 100px;
+}

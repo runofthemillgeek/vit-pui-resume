@@ -6,25 +6,169 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sangeeth Sudheer</title>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
     <link rel="stylesheet" href="bower_components/bulma/css/bulma.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/progressbar.js/dist/progressbar.js"></script>
 </head>
 
 <body>
     <section class="hero is-primary is-fullheight">
-        <div class="hero-head">
+        <!--<div class="hero-head">
             <header class="nav">
                 <div class="container">
                     <div class="nav-center">
-                        <h1 class="nav-item">Sangeeth Sudheer</h1>
+                        <h1 class="nav-item title is-3">Sangeeth Sudheer</h1>
                     </div>
                 </div>
             </header>
-        </div>
+        </div>-->
         <div class="hero-body">
             <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <h1 class="title is-1">Hi there!</h1>
+                <div id="intro" class="tab-content active">
+                    <div class="columns">
+                        <div class="column">
+                            <p class="subtitle is-3">Hi there! 👊🏼</p>
+                            <h1 class="title is-1">I am <strong>Sangeeth Sudheer</strong>.</h1>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column is-8">
+                            <p>
+                                <p>I am a 20-yo Software Engineering student at VIT University, Microsoft Student Partner at Vellore. I hail from <em>"God's own country"</em>, Kerala. I'm a bit of a geek 👨🏼‍💻 and an avid coder. I love to learn new things especially when it comes to computers and technology. I am in love with web technologies. I have been developing websites for the past 5 years, but I do tinker with other stuff as well. I have also led my team in developing many projects during my time in college and have conducted many workshops about Web and other cool stuff that got many positive feedbacks 👍🏼. My goal is to be at the helm of Microsoft (I just can't get it out of my head) and I will 😎.</p>
+                                <p>Browse this small contraption I created to learn more about me. 👉🏼</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="timeline" class="tab-content">
+                    <div class="columns">
+                        <div class="column">
+                            <dl>
+                                <dt>
+                                    <div class="heading">2016–Present</div>
+                                    <h2 class="title is-2">Technical Lead</h2>
+                                    <div class="subtitle is-4">Microsoft Innovation Center, VIT University</div>
+                                </dt>
+                                <dd>
+                                    Undergraduate program.
+                                </dd>
+                                <hr>
+                                <dt>
+                                    <div class="heading">2015–Present</div>
+                                    <h2 class="title is-2">Microsoft Student Partner</h2>
+                                    <div class="subtitle is-4">MSP representative of Vellore Institute of Technology, Vellore</div>
+                                </dt>
+                                <dd>
+                                    Undergraduate program.
+                                </dd>
+                                <hr>
+                                <dt>
+                                    <div class="heading">2014–Present</div>
+                                    <h2 class="title is-2">Vellore Institute of Technology, Vellore</h2>
+                                    <div class="subtitle is-4">M.S. Software Engineering</div>
+                                </dt>
+                                <dd>
+                                    Undergraduate program.
+                                </dd>
+                                <hr>
+                                <dt>
+                                    <div class="heading">2012–2014</div>
+                                    <h2 class="title is-2">Indira Gandhi Public School, Mambaram</h2>
+                                    <div class="subtitle is-4">CBSE XII<sup>th</sup> Standard</div>
+                                </dt>
+                                <dd>
+                                    Undergraduate program.
+                                </dd>
+                                <hr>
+                                <dt>
+                                    <div class="heading">1996</div>
+                                    <h2 class="title is-2">Born</h2>
+                                    <div class="subtitle is-4">🐣🐥🐤</div>
+                                </dt>
+                                <dd>
+                                    Undergraduate program.
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div id="skills" class="tab-content">
+                    <div class="columns">
+                        <div class="column">
+                            <h2 class="title is-2">Skills</h2>
+                            <p class="subtitle is-4">All the jutsu I've learned.</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="level">
+                                <div class="skill level-item">
+                                    <div class="skill-bar">
+                                        <div class="skill-name">HTML</div>
+                                        <div class="skill-percent">15%</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill level-item">
+                                    <div class="skill-bar">
+                                        <div class="skill-name">CSS</div>
+                                        <div class="skill-percent">85%</div>
+                                    </div>
+                                </div>
+
+                                <div class="skill level-item">
+                                    <div class="skill-bar">
+                                        <div class="skill-name">JavaScript</div>
+                                        <div class="skill-percent">80%</div>
+                                    </div>
+                                </div>
+                                <div class="skill level-item">
+                                    <div class="skill-bar">
+                                        <div class="skill-name">Node.js</div>
+                                        <div class="skill-percent">60%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="level">
+                                <div class="skill level-item">
+                                    <div class="skill-bar">
+                                            <div class="skill-name">PHP</div>
+                                            <div class="skill-percent">80%</div>
+                                    </div>
+                                </div>
+                                <div class="skill level-item">
+                                    <div class="skill-bar">
+                                        <div class="skill-name">Python</div>
+                                        <div class="skill-percent">90%</div>
+                                    </div>
+                                </div>
+                                <div class="skill level-item">
+                                    <div class="skill-bar">
+                                        <div class="skill-name">Java</div>
+                                        <div class="skill-percent">60%</div>
+                                    </div>
+                                </div>
+                                <div class="skill level-item">
+                                    <div class="skill-bar">
+                                        <div class="skill-name">Databases</div>
+                                        <div class="skill-percent">50%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact" class="tab-content">
+                    <div class="columns">
+                        <div class="column">
+                            <h2 class="title is-2">Contact</h2>
+                            <p class="subtitle is-4">Let's get in touch.</p>
+                            <hr>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -33,16 +177,16 @@
             <nav class="tabs is-boxed is-fullwidth">
                 <div class="container">
                     <ul>
-                        <li class="is-active"><a>Intro</a></li>
-                        <li><a>Education</a></li>
-                        <li><a>Work</a></li>
-                        <li><a>Publications</a></li>
-                        <li><a>Contact</a></li>
+                        <li class="is-active"><a href="#intro">Intro</a></li>
+                        <li><a href="#timeline">Timeline</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </section>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
