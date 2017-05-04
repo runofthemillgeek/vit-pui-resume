@@ -12,10 +12,11 @@ $(function () {
     let animationEntryClasses = "animated fadeInRight";
 
     $(".tabs ul").on("click", "a", function (e) {
+        e.preventDefault();
+        
         if (appState.tabTransitioning)
             return;
 
-        e.preventDefault();
         id = $(this).attr("href").slice(1);
 
         $tabContentElement = $("#" + id);
