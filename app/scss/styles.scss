@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .hero {
     background: #43cea2;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
