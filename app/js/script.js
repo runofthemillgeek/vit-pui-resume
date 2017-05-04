@@ -95,4 +95,10 @@ $(function () {
         circle.set(Number.parseInt(skillPercent.slice(0, -1)) / 100);
         appElements.progressCircles.push(circle);
     });
+
+    // Go to tab if URL has hash
+    let hashValue = location.hash;
+    if (hashValue) {
+        let $link = $('a[href="' + hashValue + '"]').click();
+    }
 });
